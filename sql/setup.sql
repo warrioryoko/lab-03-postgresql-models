@@ -16,7 +16,7 @@ CREATE TABLE reading_list (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     title TEXT NOT NULL,
     author TEXT NOT NULL,
-    ISBN TEXT NOT NULL,
+    isbn TEXT NOT NULL,
     publish_date INT NOT NULL
 );
 
